@@ -1,5 +1,3 @@
-2.5, 2.6, 2.7 Notes
-
 public class Main
 {
 	public static void main(String[] args) 
