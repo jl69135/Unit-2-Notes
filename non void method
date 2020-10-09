@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    System.out.println("Non-void ")
+		int x;
+		int y;
+		int sum;
+		x = 1;
+		y = 2;
+		sum = A_plus_B(x,y);
+		System.out.println("Sum of "+ x + " and "+ y + " is "+ sum);
+	}
+	
+	public static int A_plus_B (int A, int B){ //non-void methods return the type that has been declared
+	    return A + B;
+	}
+}
